@@ -1,0 +1,148 @@
+print("-"*50)
+print("Pergunta 2. Qual o Oceano banha o Brasil?")
+print("a) Oceano Atlantido.")
+print("b) Oceano Pacífico. ")
+print("c) Oceano Índico. ")
+print("d) Oceano Ártico. ")
+print("e) Oceano Antártico. ")
+p2=input("Resposta: ")
+if p2=="A" or "a":
+    acerto+=1
+    del a[0]
+    a.append(acerto)
+else:
+    erro=erro+1
+    del e[0]
+    e.append(erro)
+print(a)
+print("-"*50)
+print("Pergunta 3. Onde fica o templo de kiyomizu-dera, um dos monumentos mais famosos do japão?")
+print("a) Tokyo/tóquio.")
+print("b) Osaka. ")
+print("c) Yokohama. ")
+print("d) Quioto. ")
+print("e) Nagoia. ")
+p3=input("Resposta: ")
+if p3=="D" or "d":
+    acerto+=1
+    del a[0]
+    a.append(acerto)
+else:
+    erro=erro+1
+    del e[0]
+    e.append(erro)
+print("-"*50)
+print("Pergunta 4. Qual o nome completo do autor de Dom Casmurro?")
+print("a) José de Anchieta.")
+print("b) Gregório de Matos. ")
+print("c) Gonçalves Dias. ")
+print("d) José de Alencar. ")
+print("e) Machado de Assis. ")
+p4=input("Resposta: ")
+if p4=="E" or "e":
+    acerto+=1
+    del a[0]
+    a.append(acerto)
+else:
+    erro=erro+1
+    del e[0]
+    e.append(erro)
+print("-"*50)
+print("Pergunta 5. Qual o maior país da América Latina em extensão territorial?")
+print("a) Brasil.")
+print("b) Agentina. ")
+print("c) Colômbia. ")
+print("d) Peru. ")
+print("e) Uruguai. ")
+p5=input("Resposta: ")
+if p5=="A" or "a":
+    acerto+=1
+    del a[0]
+    a.append(acerto)
+else:
+    erro=erro+1
+    del e[0]
+    e.append(erro)
+print("-"*50)
+print("Pergunta 6. Em que ano o Brasil foi descoberta por Pedro Álvares Cabral?")
+print("a) 1510.")
+print("b) 1512. ")
+print("c) 1509. ")
+print("d) 1500. ")
+print("e) 1503. ")
+p6=input("Resposta: ")
+if p6=="D" or "d":
+    acerto+=1
+    del a[0]
+    a.append(acerto)
+else:
+    erro=erro+1
+    del e[0]
+    e.append(erro)
+print("-"*50)
+print("Pergunta 7. Qual o maior cordilheira do mundo?")
+print("a) Cordilheira Australiana.")
+print("b) Cordilheira dos Andes. ")
+print("c) Cordilheira do Cáusaso. ")
+print("d) cordilheira Elbruz. ")
+print("e) Cordilheira do Atlas. ")
+p7=input("Resposta: ")
+if p7=="B" or "b":
+    acerto+=1
+    del a[0]
+    a.append(acerto)
+else:
+    erro=erro+1
+    del e[0]
+    e.append(erro)
+print("-"*50)
+print("Pergunta 8. Qual País que tem mais ilhas do Mundo?")
+print("a) Indonésia.")
+print("b) Suécia. ")
+print("c) Estados Unidos. ")
+print("d) Austrália. ")
+print("e) Filipinas. ")
+p8=input("Resposta: ")
+if p8=="B" or "b":
+    acerto+=1
+    del a[0]
+    a.append(acerto)
+else:
+    erro=erro+1
+    del e[0]
+    e.append(erro)
+print("-"*50)
+print("Pergunta 9. Qual o país de origem da marca de automoveis Audi?")
+print("a) Itália.")
+print("b) Japão. ")
+print("c) Estados Unidos. ")
+print("d) Alemanha. ")
+print("e) Orlanda. ")
+p9=input("Resposta: ")
+if p9=="D" or "d":
+    del a[0]
+    acerto+=1
+    a.append(acerto)
+else:
+    del e[0]
+    erro=erro+1
+    e.append(erro)
+print("-"*50)
+print("Pergunta 10. Qual é a rocha mais abundante da crosta terrestre?")
+print("a) Ferro.")
+print("b) Hidrogênio. ")
+print("c) Magmáticas. ")
+print("d) Oxigenio. ")
+print("e) Feldspato. ")
+p10=input("Resposta: ")
+if p10=="E" or "e":
+    del a[0]
+    acerto+=1
+    a.append(acerto)
+else:
+    del e[0]
+    erro+=1
+    e.append(erro)
+print("-"*50)
+print(a)
+print(e)
